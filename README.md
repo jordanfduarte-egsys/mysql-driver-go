@@ -3,8 +3,13 @@
 ## Quick Start
 First, make sure you have configured $GOPATH.
 
+```
+# Rename old paste
 mv $GOPATH/src/gorm.io/driver/mysql/ $GOPATH/src/gorm.io/driver/_OLD_mysql/
+
+# Copy the new paste to the repository
 cp -R $GOPATH/src/github.com/jordanfduarte/mysql-driver-go/ $GOPATH/src/gorm.io/driver/mysql/
+```
 
 ```go
 import (
