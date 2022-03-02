@@ -1,5 +1,7 @@
 # GORM MySQL Driver
 
+## Resolve the problem with URL dependency: https://gorm.io/driver/mysql
+
 ## Quick Start
 First, make sure you have configured $GOPATH.
 
