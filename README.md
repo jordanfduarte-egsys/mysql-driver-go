@@ -1,6 +1,10 @@
 # GORM MySQL Driver
 
 ## Quick Start
+First, make sure you have configured $GOPATH.
+
+mv $GOPATH/src/gorm.io/driver/mysql/ $GOPATH/src/gorm.io/driver/_OLD_mysql/
+cp -R $GOPATH/src/github.com/jordanfduarte/mysql-driver-go/ $GOPATH/src/gorm.io/driver/mysql/
 
 ```go
 import (
